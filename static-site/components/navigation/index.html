@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+		
+		<title>Navigation - CSS Framework</title>
+		
+		<meta name="author" content="CorsCode">
+		
+		
+		<!-- FavIcon -->
+		<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+		
+		<!-- CSS Dependencies -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css' />
+		
+		<!-- Application CSS -->
+		<link rel='stylesheet' href='../../../../../../../../../public/css/main.css' />
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->	</head>
+	<body>
+		<div id="app">
+			<header>
+				<nav role="navigation">
+					<div class="container">
+						<div class="logo two columns">
+							<img src="../../../../../../../../../public/images/logo.png" />
+						</div>
+			
+						<div class="ten columns">
+							<input type="checkbox" id="toggle" />
+							<label for="toggle" onclick></label>
+			
+							<ul class="u-pull-right">
+									<li>
+										<a href="../../../../../../../../../">Home</a>
+									</li>
+									<li class="active">
+										<a href="../../../../../../../../../components/">Components</a>
+									</li>
+			
+								<li class="download"><a href="https://github.com/CorsCode/CorsCodeCSSFramework/archive/master.zip">Download</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<div class="content">
+				<div class="container">
+						<nav role="secondary-navigation">
+							<ul>
+										<li class="active"><a href="../../../../../../../../../components/navigation/">Navigation</a></li>
+										<li><a href="../../../../../../../../../components/panels/">Panels</a></li>
+										<li><a href="../../../../../../../../../components/gallery/">Gallery</a></li>
+										<li><a href="../../../../../../../../../components/footer/">Footer</a></li>
+							</ul>
+						</nav>
+
+					<h3 id="navigation">Navigation</h3>
+<ul>
+<li>16:9 Logo <strong>recommended</strong></li>
+<li>Uses checkbox trick for responsive navigation</li>
+<li><p>Currently supports:</p>
+<ul>
+<li><p>Fixed top</p>
+<pre><code class="lang-html">&lt;nav role=&quot;navigation&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;logo two columns&quot;&gt;
+          &lt;img src=&quot;http://placehold.it/160x90&quot; /&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;ten columns&quot;&gt;
+          &lt;input type=&quot;checkbox&quot; id=&quot;toggle&quot; /&gt;
+          &lt;label for=&quot;toggle&quot; onclick&gt;&lt;/label&gt;
+
+          &lt;ul class=&quot;u-pull-right&quot;&gt;
+              &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+</code></pre>
+</li>
+<li>Side navigation (<strong>Recommend</strong> using full-width design)<pre><code class="lang-html">&lt;div class=&quot;sidebar-setup&quot;&gt;
+  &lt;nav role=&quot;side-navigation&quot;&gt;
+  ...
+  &lt;/nav&gt;
+  &lt;div class=&quot;content&quot;&gt;
+  ...
+  &lt;/div&gt;
+  &lt;footer&gt;
+  ...
+  &lt;/footer&gt;
+&lt;/div&gt;
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+
+				</div>
+			</div>
+
+			<footer class="container">
+				<div class="copyright">
+					<h5>CSS Framework</h5>
+					<p>2016 &#169; All rights reserved.</p>
+				</div>
+			</footer>		</div>
+
+		<!-- Application JS -->
+		<script type="text/javascript" src="../../../../../../../../../public/js/shared.js"></script>
+		<script type="text/javascript" src="../../../../../../../../../public/js/bundle.js"></script>
+	</body>
+</html>
