@@ -1,0 +1,15 @@
+{
+  "name": "new-css-framework",
+  "description": "",
+  "main": "app/index.js",
+  "authors": [
+    "CorsCode"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "normalize-less": "*",
+    "skeleton-less": "*"
+  }
+}

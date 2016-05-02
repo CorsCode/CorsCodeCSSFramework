@@ -1,0 +1,16 @@
+.content {
+	margin-top:@header-line-height;
+
+	-moz-transition:all 0.25s ease;
+	-ms-transition:all 0.25s ease;
+	transition:all 0.25s ease;
+
+	.container {
+		padding-top:15px;
+	}
+}
+@media (min-width: @bp-larger-than-tablet) {
+	.content {
+		margin-top:calc(@header-line-height * 2);
+	}
+}
