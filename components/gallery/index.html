@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+		
+		<title>Gallery - CSS Framework</title>
+		
+		<meta name="author" content="CorsCode">
+		
+		
+		<!-- FavIcon -->
+		<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+		
+		<!-- CSS Dependencies -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css' />
+		
+		<!-- Application CSS -->
+		<link rel='stylesheet' href='../../../../../../../../../public/css/main.css' />
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->	</head>
+	<body>
+		<div id="app">
+			<header>
+				<nav role="navigation">
+					<div class="container">
+						<div class="logo two columns">
+							<img src="../../../../../../../../../public/images/logo.png" />
+						</div>
+			
+						<div class="ten columns">
+							<input type="checkbox" id="toggle" />
+							<label for="toggle" onclick></label>
+			
+							<ul class="u-pull-right">
+									<li>
+										<a href="../../../../../../../../../">Home</a>
+									</li>
+									<li class="active">
+										<a href="../../../../../../../../../components/">Components</a>
+									</li>
+			
+								<li class="download"><a href="https://github.com/CorsCode/CorsCodeCSSFramework/archive/master.zip">Download</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<div class="content">
+				<div class="container">
+						<nav role="secondary-navigation">
+							<ul>
+										<li><a href="../../../../../../../../../components/navigation/">Navigation</a></li>
+										<li><a href="../../../../../../../../../components/panels/">Panels</a></li>
+										<li class="active"><a href="../../../../../../../../../components/gallery/">Gallery</a></li>
+										<li><a href="../../../../../../../../../components/footer/">Footer</a></li>
+							</ul>
+						</nav>
+
+					<h3 id="gallery">Gallery</h3>
+<ul>
+<li>Utilizes CSS animations</li>
+<li><p>Supports up to <strong>10</strong> slides</p>
+<pre><code class="lang-html">&lt;div class=&quot;gallery twelve columns&quot;&gt;
+  &lt;div class=&quot;tagline&quot;&gt;
+      &lt;div class=&quot;inner&quot;&gt;Test image gallery&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;input type=&quot;radio&quot; id=&quot;slide1&quot; name=&quot;slide&quot; checked /&gt;
+  &lt;section class=&quot;slide&quot;&gt;
+      &lt;div class=&quot;caption&quot;&gt;
+          &lt;div class=&quot;inner&quot;&gt;Test Slide 1&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;img src=&quot;http://placehold.it/1000x450&quot; /&gt;
+  &lt;/section&gt;
+
+  &lt;input type=&quot;radio&quot; id=&quot;slide2&quot; name=&quot;slide&quot; /&gt;
+  &lt;section class=&quot;slide&quot;&gt;
+      &lt;div class=&quot;caption&quot;&gt;
+          &lt;div class=&quot;inner&quot;&gt;Test Slide 2&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;img src=&quot;http://placehold.it/1000x450&quot; /&gt;
+  &lt;/section&gt;
+
+  &lt;input type=&quot;radio&quot; id=&quot;slide3&quot; name=&quot;slide&quot; /&gt;
+  &lt;section class=&quot;slide&quot;&gt;
+      &lt;div class=&quot;caption&quot;&gt;
+          &lt;div class=&quot;inner&quot;&gt;Test Slide 3&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;img src=&quot;http://placehold.it/1000x450&quot; /&gt;
+  &lt;/section&gt;
+
+  &lt;input type=&quot;radio&quot; id=&quot;slide4&quot; name=&quot;slide&quot; /&gt;
+  &lt;section class=&quot;slide&quot;&gt;
+      &lt;div class=&quot;caption&quot;&gt;
+          &lt;div class=&quot;inner&quot;&gt;Test Slide 4&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;img src=&quot;http://placehold.it/1000x450&quot; /&gt;
+  &lt;/section&gt;
+
+  &lt;div class=&quot;nav&quot;&gt;
+      &lt;div class=&quot;u-cf&quot;&gt;
+          &lt;label for=&quot;slide1&quot; onclick&gt;&lt;/label&gt;
+          &lt;label for=&quot;slide2&quot; onclick&gt;&lt;/label&gt;
+          &lt;label for=&quot;slide3&quot; onclick&gt;&lt;/label&gt;
+          &lt;label for=&quot;slide4&quot; onclick&gt;&lt;/label&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+</li>
+</ul>
+
+				</div>
+			</div>
+
+			<footer class="container">
+				<div class="copyright">
+					<h5>CSS Framework</h5>
+					<p>2016 &#169; All rights reserved.</p>
+				</div>
+			</footer>		</div>
+
+		<!-- Application JS -->
+		<script type="text/javascript" src="../../../../../../../../../public/js/shared.js"></script>
+		<script type="text/javascript" src="../../../../../../../../../public/js/bundle.js"></script>
+	</body>
+</html>
